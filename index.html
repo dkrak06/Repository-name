@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAGE 황칠삼 & 황칠문 | 산삼나무 야생 황칠 프리미엄 건강즙</title>
+  <meta name="description" content="진시황과 다산 정약용이 극찬한 산삼나무 야생 황칠 48.7%! 100년근 산삼 배양근을 담은 아침 활력 황칠삼 & 소나무 복령을 품은 편안한 밤 황칠문. 100% 무농약 국내산 건강즙.">
+  <meta name="keywords" content="황칠, 황칠나무, 황칠즙, 황칠삼, 황칠문, 건강즙, 산삼배양근, 복령, 피로회복, 수면개선, 세이지, SAGE">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 최상단 긴급 런칭 혜택 띠배너 -->
+  <div class="top-announcement">
+    <span class="badge-live">LAUNCHING EVENT</span>
+    <span><strong>[한정 수량]</strong> 전 제품 <strong>무료배송</strong> + 전용 <strong>파우치 커터</strong> 증정 이벤트 진행 중!</span>
+  </div>
+
+  <!-- 글로벌 네비게이션 -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="brand-logo">
+        <div class="logo-symbol">S</div>
+        <div class="brand-text">
+          <span class="brand-title">SAGE</span>
+          <span class="brand-sub">황칠(黃漆) 자연명작</span>
+        </div>
+      </div>
+
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#heritage">황칠의 유래</a></li>
+          <li class="nav-item"><a href="#diagnosis">맞춤 진단</a></li>
+          <li class="nav-item"><a href="#lineup">제품 라인업</a></li>
+          <li class="nav-item"><a href="#science">성분 & 과학</a></li>
+          <li class="nav-item"><a href="#routine">섭취 가이드</a></li>
+          <li class="nav-item"><a href="#pricing">특가 혜택</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- 데이/나이트 무드 스위처 -->
+        <button class="theme-switch-btn" id="themeSwitchBtn" title="황칠문(밤) / 황칠삼(낮) 분위기 전환">
+          <span class="theme-icon" id="themeIcon">🌙</span>
+          <span id="themeText">황칠문(밤) 모드</span>
+        </button>
+        <a href="tel:061-843-1677" class="btn-primary-cta">
+          <span>📞 061-843-1677</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg-lights">
+      <div class="hero-light-moon"></div>
+      <div class="hero-light-sam"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-tagline">
+          <span>👑</span>
+          <span>진시황과 다산 정약용이 극찬한 황실의 보물</span>
+        </div>
+        <h1 class="hero-title">
+          활기찬 아침의 <span class="gold-gradient-text">황칠삼</span>,<br>
+          편안한 밤을 여는 <span class="gold-gradient-text">황칠문</span>
+        </h1>
+        <p class="hero-desc">
+          인위적인 농장이 아닌 <strong>전남 청정 야생에서 무농약으로 자란 황칠나무</strong>를 아낌없이 담았습니다.<br>
+          100년근 산삼 배양근의 활력과 소나무 복령의 깊은 쉼으로 당신의 24시간 바이오리듬을 완벽하게 다스립니다.
+        </p>
+
+        <div class="hero-badges-row">
+          <div class="hero-badge-item">
+            <span class="icon">🌿</span>
+            <span>국내산 야생 황칠잎 <strong>최대 48.7%</strong></span>
+          </div>
+          <div class="hero-badge-item">
+            <span class="icon">✨</span>
+            <span>100년근 천종 산삼 배양근</span>
+          </div>
+          <div class="hero-badge-item">
+            <span class="icon">🌲</span>
+            <span>소나무 귀한 복령(5.3%)</span>
+          </div>
+          <div class="hero-badge-item">
+            <span class="icon">🛡️</span>
+            <span>3無 (무농약·무색소·무첨가)</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="tel:061-843-1677" class="btn-hero-primary">
+            <span>📞 전화 상담 및 주문 문의</span>
+            <span>(061-843-1677)</span>
+          </a>
+          <a href="#diagnosis" class="btn-hero-secondary">
+            <span>내게 맞는 황칠 셀프진단</span>
+            <span>?</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 3D 듀얼 인터랙티브 비주얼 -->
+      <div class="hero-visual">
+        <div class="dual-showcase-card">
+          <div class="showcase-selector">
+            <button class="showcase-tab active" data-target="sam">☀️ 황칠삼 (아침 활력)</button>
+            <button class="showcase-tab" data-target="moon">🌙 황칠문 (밤 릴렉스)</button>
+          </div>
+          <div class="showcase-image-wrapper">
+            <img id="heroShowcaseImg" src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%ED%99%A9%EC%B9%A0%EC%82%BC0.jpg" alt="SAGE 황칠삼 대표 제품" class="showcase-img">
+            <div class="showcase-floating-badge" id="heroShowcaseBadge">☀️ 모닝 활력 루틴</div>
+          </div>
+          <div class="showcase-caption">
+            <div>
+              <div class="title" id="heroShowcaseTitle">황칠삼 (산삼을 품은 황칠)</div>
+              <div class="sub" id="heroShowcaseSub">활기찬 아침을 여는 100년근 산삼 배양근의 생명력</div>
+            </div>
+            <div class="highlight-box">100ml × 50포</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 수치로 증명하는 프리미엄 신뢰 바 -->
+  <section class="stats-bar-section">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-value">48.7%</div>
+        <div class="stat-label">국내산 야생 황칠 나뭇잎 함량</div>
+        <div class="stat-sub">물만 탄 시중 제품과 비교 불가한 고함량</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">100년</div>
+        <div class="stat-label">천종 산삼 배양근 첨단 접목</div>
+        <div class="stat-sub">재배삼 대비 월등한 조사포닌 함유</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">5,000ml</div>
+        <div class="stat-label">1박스 100ml 대용량 50포 구성</div>
+        <div class="stat-sub">온 가족이 넉넉하게 음용하는 혜자 용량</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">0%</div>
+        <div class="stat-label">합성첨가물·인공색소·보존료</div>
+        <div class="stat-sub">100% 자연 유래 안심 원료 제조</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 황칠의 헤리티지 & 역사적 가치 -->
+  <section class="section" id="heritage">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">The Heritage of Hwangchil</span>
+        <h2 class="section-title">천년을 기다려온 황실의 영약,<br><span class="gold-gradient-text">산삼나무 황칠(Dendropanax)</span></h2>
+        <p class="section-desc">
+          학명 <em>Dendropanax morbiferus</em> — 그리스어로 'Dendro(나무)'와 'Panax(만병통치약)'의 결합.<br>
+          예로부터 한반도 남녘 청정 야생에서만 자생하던 황금빛 귀한 보물나무입니다.
+        </p>
+      </div>
+
+      <div class="heritage-grid">
+        <div class="heritage-visual-card">
+          <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EC%9E%90%EC%97%B0%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg" alt="청정 자연 속 야생 황칠">
+          <div class="heritage-overlay">
+            <div class="quote">"보물 중에 보물은 황칠이라."</div>
+            <div class="source">— 다산 정약용 《다산시문집(茶山詩文集)》</div>
+          </div>
+        </div>
+
+        <div class="heritage-content">
+          <div class="heritage-point">
+            <h4>01. 진시황이 탐냈던 불로의 산삼나무</h4>
+            <p>
+              진시황이 불로초를 찾아 동방으로 보낸 서복 일행이 찾던 신비로운 영약 중 하나가 바로 남해안의 황칠나무였습니다.
+              인삼과 산삼에 풍부한 사포닌(Saponin) 성분을 나무 자체에 다량 품고 있어 '나무 인삼', '산삼나무'로 불려왔습니다.
+            </p>
+          </div>
+
+          <div class="heritage-point">
+            <h4>02. 왕실 진상품이자 민족의 황금 보물</h4>
+            <p>
+              황실의 최고급 안료이자 왕의 기력을 보양하는 귀한 진상품으로 쓰였습니다.
+              다산 정약용 선생 또한 황칠나무의 신비로운 약효와 가치를 높이 칭송하며 최고의 찬사를 아끼지 않았습니다.
+            </p>
+          </div>
+
+          <div class="heritage-point">
+            <h4>03. 비닐하우스 재배가 아닌 '진짜 야생 산림' 채취</h4>
+            <p>
+              SAGE는 인위적으로 비료를 준 밭 재배가 아닙니다.
+              전남 남도의 험준한 산야에서 해풍과 이슬을 맞으며 강인한 생명력으로 자란 무농약 야생 황칠나무만을 엄선하여 고유의 유효성분을 고스란히 담았습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 인터랙티브 자가진단 셀프 체크리스트 -->
+  <section class="section" id="diagnosis" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Self Health Check</span>
+        <h2 class="section-title">나에게 지금 필요한 황칠은 무엇일까요?</h2>
+        <p class="section-desc">현재 겪고 계신 컨디션 항목을 클릭해보세요. 고객님의 라이프스타일에 최적화된 황칠 맞춤 처방을 실시간으로 분석해드립니다.</p>
+      </div>
+
+      <div class="diagnosis-card">
+        <div class="diagnosis-steps">
+          <div class="diagnosis-option" data-id="1" data-type="sam">
+            <div class="diagnosis-checkbox">✓</div>
+            <div class="diagnosis-text">아침에 알람 소리를 들어도 일어나기 힘들고 온몸이 천근만근 무겁다.</div>
+          </div>
+          <div class="diagnosis-option" data-id="2" data-type="moon">
+            <div class="diagnosis-checkbox">✓</div>
+            <div class="diagnosis-text">밤에 누워도 쉽게 잠들지 못하고 스마트폰을 보며 오래 뒤척인다.</div>
+          </div>
+          <div class="diagnosis-option" data-id="3" data-type="sam">
+            <div class="diagnosis-checkbox">✓</div>
+            <div class="diagnosis-text">잦은 야근과 업무 스트레스로 낮 시간 집중력과 활력이 크게 떨어진다.</div>
+          </div>
+          <div class="diagnosis-option" data-id="4" data-type="both">
+            <div class="diagnosis-checkbox">✓</div>
+            <div class="diagnosis-text">잦은 회식과 술자리로 다음 날 숙취가 심하고 간 건강이 염려된다.</div>
+          </div>
+          <div class="diagnosis-option" data-id="5" data-type="moon">
+            <div class="diagnosis-checkbox">✓</div>
+            <div class="diagnosis-text">작은 일에도 예민해지고 마음의 쉼과 안정, 깊은 이완이 필요하다.</div>
+          </div>
+          <div class="diagnosis-option" data-id="6" data-type="both">
+            <div class="diagnosis-checkbox">✓</div>
+            <div class="diagnosis-text">부모님이나 고마운 분께 드릴 기품 있고 믿을 수 있는 보양 선물을 찾고 있다.</div>
+          </div>
+        </div>
+
+        <!-- 실시간 진단 결과 박스 -->
+        <div class="diagnosis-result-box" id="diagnosisResult">
+          <div class="result-content">
+            <div class="result-details">
+              <h3 id="resultTitle">추천 솔루션</h3>
+              <p id="resultDesc">문항을 선택하시면 맞춤 황칠 처방이 안내됩니다.</p>
+            </div>
+            <a href="tel:061-843-1677" class="btn-primary-cta" id="resultCta">📞 추천 제품 전화 상담 (061-843-1677)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 듀얼 라인업 집중 비교 분석 -->
+  <section class="section" id="lineup">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Dual Masterpiece Lineup</span>
+        <h2 class="section-title">아침의 활력과 밤의 안식,<br><span class="gold-gradient-text">세이지 듀얼 황칠 컬렉션</span></h2>
+        <p class="section-desc">자연이 준 선물 황칠을 중심으로 산삼 배양근과 소나무 복령이 빚어낸 두 가지 프리미엄 처방을 만나보세요.</p>
+      </div>
+
+      <!-- 탭 컨트롤러 -->
+      <div class="lineup-tabs-nav">
+        <button class="lineup-btn active" data-pane="pane-sam">
+          <span>☀️</span>
+          <span>황칠삼 (모닝 활력 & 기력)</span>
+        </button>
+        <button class="lineup-btn" data-pane="pane-moon">
+          <span>🌙</span>
+          <span>황칠문 (나이트 릴렉스 & 숙면)</span>
+        </button>
+      </div>
+
+      <!-- 황칠삼 상세 카드 -->
+      <div class="product-tab-pane active" id="pane-sam">
+        <div class="product-deep-card">
+          <div class="product-deep-grid">
+            <div class="product-gallery-slider">
+              <div class="main-gallery-view">
+                <img id="samMainImg" src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%ED%99%A9%EC%B9%A0%EC%82%BC0.jpg" alt="황칠삼 메인 사진">
+              </div>
+              <div class="gallery-thumbnails">
+                <div class="thumb-item active sam-thumb" data-full="이미지 모음/황칠삼0.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%ED%99%A9%EC%B9%A0%EC%82%BC0.jpg" alt="썸네일 1">
+                </div>
+                <div class="thumb-item sam-thumb" data-full="이미지 모음/노글삼.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EB%85%B8%EA%B8%80%EC%82%BC.jpg" alt="썸네일 2">
+                </div>
+                <div class="thumb-item sam-thumb" data-full="이미지 모음/삼1.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EC%82%BC1.jpg" alt="썸네일 3">
+                </div>
+                <div class="thumb-item sam-thumb" data-full="이미지 모음/삼3.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EC%82%BC3.jpg" alt="썸네일 4">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-info-col">
+              <span class="badge-routine badge-morning">☀️ MORNING ENERGY ROUTINE</span>
+              <h3>황칠삼 (산삼을 품은 황칠)</h3>
+              <p class="product-slogan">"당신에게 활기찬 아침을, 자연 그대로 담았습니다"</p>
+              
+              <ul class="spec-list">
+                <li>
+                  <strong>주원료 함량</strong>
+                  <span>국내산 야생 황칠 나뭇잎 <strong>48.7%</strong> + 100년근 산삼 배양근 <strong>1.3%</strong></span>
+                </li>
+                <li>
+                  <strong>전통 부원료</strong>
+                  <span>벌나무(국내산), 구기자(국내산), 대추(국내산), 감초, 그라비올라 황금 배합</span>
+                </li>
+                <li>
+                  <strong>용량 및 구성</strong>
+                  <span>100ml 파우치 × 50포 (총 5,000ml 대용량 박스 포장)</span>
+                </li>
+                <li>
+                  <strong>핵심 특징</strong>
+                  <span>100년근 천종 산삼 배양근의 고농축 사포닌(Rg1, Rb1, Rg3)이 지친 현대인에게 폭발적인 기력과 아침 활력을 선물합니다.</span>
+                </li>
+              </ul>
+
+              <div class="ingredient-chips">
+                <span class="chip">#야생황칠48.7%</span>
+                <span class="chip">#100년근산삼배양근</span>
+                <span class="chip">#간보호벌나무</span>
+                <span class="chip">#피로회복구기자</span>
+                <span class="chip">#무농약3無원칙</span>
+              </div>
+
+              <div style="margin-top: 30px;">
+                <a href="tel:061-843-1677" class="btn-primary-cta">📞 황칠삼 전화 상담 및 주문 (061-843-1677)</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 산삼 배양 공정 타임라인 -->
+          <div style="margin-top: 50px; border-top: 1px solid var(--border-subtle); padding-top: 40px;">
+            <h4 style="font-size: 1.3rem; margin-bottom: 8px; text-align: center;">첨단 생명공학 100년근 천종 산삼 배양 공정</h4>
+            <p style="text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 24px;">우수한 형질의 100년근 야생 산삼 세포만을 엄선하여 무균 배양한 고순도 사포닌</p>
+            <div class="process-timeline">
+              <div class="process-step-card">
+                <div class="step-num">01</div>
+                <h5>100년근 산삼 채취</h5>
+                <p>강원도 깊은 산속 귀한 천종 산삼 엄선 채취</p>
+              </div>
+              <div class="process-step-card">
+                <div class="step-num">02</div>
+                <h5>무균실 생체 조직 분리</h5>
+                <p>첨단 바이오 클린룸에서 순수 유효세포 분리</p>
+              </div>
+              <div class="process-step-card">
+                <div class="step-num">03</div>
+                <h5>생물배양기 대량 배양</h5>
+                <p>무농약 생물반응기에서 고농도 사포닌 증식</p>
+              </div>
+              <div class="process-step-card">
+                <div class="step-num">04</div>
+                <h5>수확 및 저온 건조</h5>
+                <p>영양 파괴를 최소화한 정제수 세척 및 출하</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 황칠문 상세 카드 -->
+      <div class="product-tab-pane" id="pane-moon">
+        <div class="product-deep-card">
+          <div class="product-deep-grid">
+            <div class="product-gallery-slider">
+              <div class="main-gallery-view">
+                <img id="moonMainImg" src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%ED%99%A9%EC%B9%A0%EB%AC%B80.jpg" alt="황칠문 메인 사진">
+              </div>
+              <div class="gallery-thumbnails">
+                <div class="thumb-item active moon-thumb" data-full="이미지 모음/황칠문0.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%ED%99%A9%EC%B9%A0%EB%AC%B80.jpg" alt="썸네일 1">
+                </div>
+                <div class="thumb-item moon-thumb" data-full="이미지 모음/노글문.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EB%85%B8%EA%B8%80%EB%AC%B8.jpg" alt="썸네일 2">
+                </div>
+                <div class="thumb-item moon-thumb" data-full="이미지 모음/문1.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EB%AC%B81.jpg" alt="썸네일 3">
+                </div>
+                <div class="thumb-item moon-thumb" data-full="이미지 모음/문3.jpg">
+                  <img src="%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%AA%A8%EC%9D%8C/%EB%AC%B83.jpg" alt="썸네일 4">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-info-col">
+              <span class="badge-routine badge-night">🌙 NIGHT RELAX ROUTINE</span>
+              <h3>황칠문 (달을 품은 황칠)</h3>
+              <p class="product-slogan">"그대에게 편안한 밤을, 자연 그대로 담았습니다"</p>
+              
+              <ul class="spec-list">
+                <li>
+                  <strong>주원료 함량</strong>
+                  <span>국내산 야생 황칠 나뭇잎 <strong>43.3%</strong> + 소나무 복령 <strong>5.3%</strong></span>
+                </li>
+                <li>
+                  <strong>전통 부원료</strong>
+                  <span>복령(국내산), 벌나무(국내산), 구기자(국내산), 대추(국내산), 감초, 그라비올라</span>
+                </li>
+                <li>
+                  <strong>용량 및 구성</strong>
+                  <span>100ml 파우치 × 50포 (총 5,000ml 대용량 박스 포장)</span>
+                </li>
+                <li>
+                  <strong>핵심 특징</strong>
+                  <span>소나무 뿌리의 귀한 균핵 '복령'과 야생 황칠의 천연 안식향이 지친 심신과 교감신경을 부드럽게 이완시켜 깊은 수면을 돕습니다.</span>
+                </li>
+              </ul>
+
+              <div class="ingredient-chips">
+                <span class="chip">#야생황칠43.3%</span>
+                <span class="chip">#소나무복령5.3%</span>
+                <span class="chip">#수면질개선GABA</span>
+                <span class="chip">#심신안정안식향</span>
+                <span class="chip">#저녁편안한쉼</span>
+              </div>
+
+              <div style="margin-top: 30px;">
+                <a href="tel:061-843-1677" class="btn-primary-cta">📞 황칠문 전화 상담 및 주문 (061-843-1677)</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 소나무 복령 헤리티지 박스 -->
+          <div style="margin-top: 50px; border-top: 1px solid var(--border-subtle); padding-top: 40px; text-align: center;">
+            <h4 style="font-size: 1.3rem; margin-bottom: 8px;">소나무가 품은 인고의 버섯, 복령(Poria cocos)</h4>
+            <p style="color: var(--text-muted); font-size: 0.92rem; max-width: 760px; margin: 0 auto; line-height: 1.8;">
+              소나무를 벌채한 뒤 3~10년의 긴 세월 동안 땅속 뿌리에서 기생하며 소나무의 정기를 흡수해 자라나는 귀한 균핵입니다.
+              동의보감에서도 마음을 안정시키고 건망을 다스리며 잠을 깊게 자게 하는 귀한 약재로 기록되어 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 과학적 효능 & 성분 백과 (Scientific Research) -->
+  <section class="section" id="science" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Science & Nature Synergy</span>
+        <h2 class="section-title">학계 연구와 논문이 증명하는<br><span class="gold-gradient-text">황칠의 놀라운 유효 성분</span></h2>
+        <p class="section-desc">현대 한방 생명과학이 규명한 야생 황칠과 엄선된 전통 원료들의 과학적 메커니즘을 투명하게 공개합니다.</p>
+      </div>
+
+      <div class="ingredients-grid">
+        <div class="ingredient-card">
+          <div class="ingredient-icon-box">🌿</div>
+          <h4>야생 황칠나무</h4>
+          <span class="sub-latin">Dendropanax morbiferus</span>
+          <p>
+            인삼과 산삼의 핵심 사포닌과 루틴(Rutin), 클로로제닉산, 세스퀴테르펜을 함유.
+            간세포 효소(GOT, GPT) 보호, 혈행 및 콜레스테롤 개선, 강력한 항산화 활성이 다수 논문으로 입증되었습니다.
+          </p>
+          <div class="key-compounds">지표 성분: 루틴, 덴드로파녹사이드, 시린진</div>
+        </div>
+
+        <div class="ingredient-card">
+          <div class="ingredient-icon-box">✨</div>
+          <h4>100년근 산삼 배양근</h4>
+          <span class="sub-latin">Panax ginseng C.A. Meyer</span>
+          <p>
+            일반 재배 인삼이나 홍삼 대비 월등히 높은 조사포닌(Ginsenoside Rg1, Rb1, Rg3)을 함유.
+            면역세포 활성화와 만성 피로 회복, 활성산소 억제에 탁월한 활력 시너지를 발휘합니다.
+          </p>
+          <div class="key-compounds">지표 성분: 진세노사이드 Rg1, Rb1, Rg3</div>
+        </div>
+
+        <div class="ingredient-card">
+          <div class="ingredient-icon-box">🌲</div>
+          <h4>소나무 복령</h4>
+          <span class="sub-latin">Poria cocos</span>
+          <p>
+            뇌의 GABA 및 세로토닌 수용체에 긍정적으로 관여하여 과도한 교감신경 흥분을 가라앉히고,
+            스트레스 완화 및 수면 잠복기를 단축시켜 숙면의 질을 높여줍니다.
+          </p>
+          <div class="key-compounds">지표 성분: 파키모스, 트리테르펜, 에르고스테롤</div>
+        </div>
+
+        <div class="ingredient-card">
+          <div class="ingredient-icon-box">🍃</div>
+          <h4>벌나무 (산청목)</h4>
+          <span class="sub-latin">Acer tegmentosum</span>
+          <p>
+            예로부터 간 해독과 피를 맑게 하는 데 으뜸으로 알려진 약목.
+            플라보노이드와 폴리페놀이 풍부하여 음주 후 알코올 분해 및 숙취 해소를 든든하게 돕습니다.
+          </p>
+          <div class="key-compounds">지표 성분: 플라보노이드, 안트라퀴논</div>
+        </div>
+
+        <div class="ingredient-card">
+          <div class="ingredient-icon-box">🍒</div>
+          <h4>구기자 & 대추</h4>
+          <span class="sub-latin">Lycium chinense & Jujube</span>
+          <p>
+            베타인과 제아잔틴, 비타민C, 철분이 풍부한 구기자와 신경 안정에 좋은 대추가 만나
+            황칠 특유의 깊은 맛을 감미롭게 조화시키고 신체 활력을 복돋워줍니다.
+          </p>
+          <div class="key-compounds">지표 성분: 베타인, 카로티노이드, 비타민C</div>
+        </div>
+
+        <div class="ingredient-card">
+          <div class="ingredient-icon-box">🌱</div>
+          <h4>그라비올라 & 감초</h4>
+          <span class="sub-latin">Graviola & Licorice</span>
+          <p>
+            아마존의 신비로운 식물 그라비올라의 파이토케미컬 아세토게닌과
+            모든 약재를 부드럽게 감싸 소화 흡수를 돕는 감초의 글리시리진이 조화를 이룹니다.
+          </p>
+          <div class="key-compounds">지표 성분: 아세토게닌, 리퀴리틴, 글리시리진</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4대 품질 원칙 (SAGE Standards) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">The SAGE Promise</span>
+        <h2 class="section-title">가족이 마시는 정성 그대로,<br><span class="gold-gradient-text">세이지 4대 품질 원칙</span></h2>
+        <p class="section-desc">한 방울의 물, 한 톨의 첨가물도 타협하지 않는 정직한 장인정신입니다.</p>
+      </div>
+
+      <div class="standards-grid">
+        <div class="standard-item">
+          <span class="icon">🏞️</span>
+          <h4>청정 야생 채취 100%</h4>
+          <p>전남 고흥과 해남의 청정 산야에서 무농약으로 자란 야생 황칠나무 잎만을 꼼꼼히 채취합니다.</p>
+        </div>
+        <div class="standard-item">
+          <span class="icon">🛡️</span>
+          <h4>3無 안심 클린 포뮬러</h4>
+          <p>합성 보존료, 인공 착색료, 합성 착향료 0%! 자연 그대로의 원물만을 달여냈습니다.</p>
+        </div>
+        <div class="standard-item">
+          <span class="icon">⚗️</span>
+          <h4>전통 비방 황금 배합</h4>
+          <p>황칠의 강한 기운을 부드럽게 다스리기 위해 7가지 전통 약재를 최적의 비율로 숙성 추출했습니다.</p>
+        </div>
+        <div class="standard-item">
+          <span class="icon">📦</span>
+          <h4>100ml 대용량 50포</h4>
+          <p>시중 70~80ml 30포 포장이 아닌 100ml 파우치 50포(총 5,000ml) 풀박스로 넉넉하게 담았습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 섭취 방법 & 음용 팁 -->
+  <section class="section" id="routine" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">How to Drink & Daily Routine</span>
+        <h2 class="section-title">몸의 변화를 느끼는<br><span class="gold-gradient-text">가장 완벽한 섭취 루틴</span></h2>
+        <p class="section-desc">첫 7일간의 집중 리셋부터 24시간 데이&나이트 활력 루틴까지 제안합니다.</p>
+      </div>
+
+      <div class="routine-comparison">
+        <div class="routine-card morning">
+          <span class="routine-time-badge">☀️ 활기찬 아침 루틴</span>
+          <h4>황칠삼 (모닝 케어)</h4>
+          <p>기상 직후 또는 출근 전, 몸의 잠든 세포를 깨우고 활력을 가득 충전하세요.</p>
+          <ul class="routine-steps">
+            <li>아침 공복 또는 식후 따뜻하게 데워 다도하듯 한 잔 음미</li>
+            <li>오후 나른한 시간, 커피 대신 기력을 채우는 천연 에너지 티로 음용</li>
+            <li>활기찬 하루를 위한 조사포닌과 산삼의 즉각적인 에너지 공급</li>
+          </ul>
+        </div>
+
+        <div class="routine-card night">
+          <span class="routine-time-badge">🌙 편안한 저녁 루틴</span>
+          <h4>황칠문 (나이트 케어)</h4>
+          <p>취침 1~2시간 전, 하루의 고단함과 스트레스를 씻어내고 깊은 쉼을 맞이하세요.</p>
+          <ul class="routine-steps">
+            <li>저녁 식사 후 또는 잠자리에 들기 전 따뜻하게 데워 마시기</li>
+            <li>소나무 복령과 황칠의 은은한 안식향을 맡으며 심신 이완</li>
+            <li>야근 및 잦은 회식 날, 귀가 후 숙취 방어와 속을 달래는 힐링 차</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 특별 음용 팁 -->
+      <div style="background: var(--bg-card); border-radius: 20px; padding: 30px; border: 1px solid var(--border-subtle); display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+        <div style="text-align: center; max-width: 250px;">
+          <div style="font-size: 2rem; margin-bottom: 8px;">🍶</div>
+          <h5 style="font-size: 1.05rem; margin-bottom: 6px;">특별한 날 황칠주</h5>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">소주 1병에 황칠 파우치 1포를 타서 드시면 부드러운 목넘김과 다음 날 깔끔한 아침을 선사합니다.</p>
+        </div>
+        <div style="text-align: center; max-width: 250px;">
+          <div style="font-size: 2rem; margin-bottom: 8px;">🍵</div>
+          <h5 style="font-size: 1.05rem; margin-bottom: 6px;">따뜻한 다도 힐링차</h5>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">따뜻한 물에 중탕하여 예쁜 찻잔에 따라 천천히 향을 음미하며 드시면 흡수율이 더욱 높아집니다.</p>
+        </div>
+        <div style="text-align: center; max-width: 250px;">
+          <div style="font-size: 2rem; margin-bottom: 8px;">🧊</div>
+          <h5 style="font-size: 1.05rem; margin-bottom: 6px;">시원한 얼음 에이드</h5>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">더운 날이나 운동 후, 얼음잔에 시원하게 부어 건강한 갈증 해소 드링크로 즐기세요.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 실시간 가격 계산기 및 주문 옵션 섹션 -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Special Launching Offer</span>
+        <h2 class="section-title">오직 지금만 만나는<br><span class="gold-gradient-text">특별 런칭 혜택 & 가격 계산기</span></h2>
+        <p class="section-desc">원하시는 구성을 선택하시면 실시간 할인 금액과 사은품 혜택이 즉시 계산됩니다.</p>
+      </div>
+
+      <div class="pricing-calculator-card">
+        <div class="pricing-grid">
+          <!-- 좌측 옵션 선택기 -->
+          <div>
+            <div class="option-group-title">1. 제품 구성 선택</div>
+            <div class="product-select-cards">
+              <label class="product-select-label selected" data-product="both">
+                <input type="radio" name="product_select" class="product-select-radio" checked>
+                <div class="select-info">
+                  <span class="select-tag">BEST 38% 할인</span>
+                  <div>
+                    <div class="select-title">데이&나이트 올인원 세트 (총 100포)</div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 3px;">황칠삼(50포) + 황칠문(50포) 풀패키지</div>
+                  </div>
+                </div>
+                <div class="select-price">
+                  <div class="original">320,000원</div>
+                  <div class="sale">198,000원</div>
+                </div>
+              </label>
+
+              <label class="product-select-label" data-product="sam">
+                <input type="radio" name="product_select" class="product-select-radio">
+                <div class="select-info">
+                  <span class="select-tag">32% 할인</span>
+                  <div>
+                    <div class="select-title">황칠삼 단품 1박스 (50포)</div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 3px;">활기찬 아침 & 100년근 산삼 배양근</div>
+                  </div>
+                </div>
+                <div class="select-price">
+                  <div class="original">160,000원</div>
+                  <div class="sale">109,000원</div>
+                </div>
+              </label>
+
+              <label class="product-select-label" data-product="moon">
+                <input type="radio" name="product_select" class="product-select-radio">
+                <div class="select-info">
+                  <span class="select-tag">32% 할인</span>
+                  <div>
+                    <div class="select-title">황칠문 단품 1박스 (50포)</div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 3px;">편안한 밤 & 소나무 복령 수면 케어</div>
+                  </div>
+                </div>
+                <div class="select-price">
+                  <div class="original">160,000원</div>
+                  <div class="sale">109,000원</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="option-group-title">2. 수량 선택</div>
+            <div class="quantity-control">
+              <button class="quantity-btn" id="qtyMinus">-</button>
+              <div class="quantity-display" id="qtyDisplay">1</div>
+              <button class="quantity-btn" id="qtyPlus">+</button>
+              <span style="font-size: 0.88rem; color: var(--text-muted);">박스 (최대 10개)</span>
+            </div>
+          </div>
+
+          <!-- 우측 실시간 결제 요약 -->
+          <div class="order-summary-box">
+            <div>
+              <div class="option-group-title" style="margin-bottom: 20px;">주문 예상 견적</div>
+              <div class="summary-row">
+                <span>선택 상품</span>
+                <span id="summaryProductName" style="text-align: right; max-width: 60%; font-weight: 600;">황칠삼+황칠문 세트 × 1</span>
+              </div>
+              <div class="summary-row">
+                <span>정상 소비자가</span>
+                <span id="summaryUnitOriginal">320,000원</span>
+              </div>
+              <div class="summary-row">
+                <span>런칭 특별 할인</span>
+                <span id="summaryDiscountTotal" style="color: #FF5A5F; font-weight: 700;">-122,000원</span>
+              </div>
+              <div class="summary-row">
+                <span>배송비</span>
+                <span style="color: var(--gold-400); font-weight: 700;">0원 (전국 무료배송)</span>
+              </div>
+
+              <div class="bonus-box">
+                🎁 <strong>런칭 특별 혜택 포함:</strong><br>
+                <span id="summaryBonusText">황칠 전용 파우치 커터 2개 + 고급 선물 쇼핑백 증정 + 무료배송</span>
+              </div>
+
+              <div class="summary-row total">
+                <span>최종 결제 금액</span>
+                <span class="total-price" id="summaryTotalPrice">198,000원</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 24px;">
+              <a href="tel:061-843-1677" class="btn-order-submit" style="display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none;">
+                <span>📞 전화 상담 및 즉시 주문 (061-843-1677)</span>
+              </a>
+              <div style="text-align: center; margin-top: 12px; font-size: 0.85rem; color: var(--gold-400); font-weight: 600;">
+                전화 한 통으로 친절한 맞춤 상담과 간편 주문이 즉시 진행됩니다 (평일 09:00~17:00)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 상세 제품 표시사항 & 스펙 표 -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Transparency & Specifications</span>
+        <h2 class="section-title">식품위생법에 따른 정직한 정보 고지</h2>
+        <p class="section-desc">세이지는 모든 원재료의 원산지와 함량을 투명하게 표기합니다.</p>
+      </div>
+
+      <div class="spec-tables-wrapper">
+        <div class="spec-table-box">
+          <h4>☀️ 황칠삼 제품 정보 고시</h4>
+          <table class="spec-detail-table">
+            <tbody>
+              <tr><th>제품명</th><td>황칠삼</td></tr>
+              <tr><th>식품유형</th><td>다류(액상차)</td></tr>
+              <tr><th>내용량</th><td>100ml × 50EA (총 5,000ml)</td></tr>
+              <tr><th>원재료 및 함량</th><td><strong>황칠 나뭇잎(국내산) 48.7%</strong>, 구기자(국내산), <strong>산삼 배양근(국내산) 1.3%</strong>, 벌나무(국내산), 대추(국내산), 그라비올라(인도네시아), 감초(우즈베키스탄)</td></tr>
+              <tr><th>제조원</th><td>세이지(SAGE) / 전남 고흥군 도양읍 녹동시장길 29-7</td></tr>
+              <tr><th>섭취방법</th><td>초기 7일간 1일 3회, 이후 1일 2회 1포씩 음용</td></tr>
+              <tr><th>포장재질</th><td>폴리프로필렌(PP 파우치)</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="spec-table-box">
+          <h4>🌙 황칠문 제품 정보 고시</h4>
+          <table class="spec-detail-table">
+            <tbody>
+              <tr><th>제품명</th><td>황칠문</td></tr>
+              <tr><th>식품유형</th><td>다류(액상차)</td></tr>
+              <tr><th>내용량</th><td>100ml × 50EA (총 5,000ml)</td></tr>
+              <tr><th>원재료 및 함량</th><td><strong>황칠 나뭇잎(국내산) 43.3%</strong>, 구기자(국내산), <strong>복령(국내산) 5.3%</strong>, 벌나무(국내산), 대추(국내산), 그라비올라(인도네시아), 감초(우즈베키스탄)</td></tr>
+              <tr><th>제조원</th><td>세이지(SAGE) / 전남 고흥군 도양읍 녹동시장길 29-7</td></tr>
+              <tr><th>섭취방법</th><td>초기 7일간 1일 3회, 이후 1일 2회 1포씩 음용</td></tr>
+              <tr><th>포장재질</th><td>폴리프로필렌(PP 파우치)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ 자주 묻는 질문 -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">FAQ</span>
+        <h2 class="section-title">자주 묻는 질문</h2>
+        <p class="section-desc">고객님들께서 자주 문의하시는 궁금증을 시원하게 해결해 드립니다.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q. 황칠삼과 황칠문의 차이점은 무엇인가요?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            황칠삼은 야생 황칠 48.7%에 100년근 산삼 배양근이 함유되어 <strong>아침 활력과 기력 증진</strong>에 특화되어 있습니다.
+            반면 황칠문은 야생 황칠 43.3%에 소나무 복령 5.3%가 더해져 <strong>저녁 심신 안정과 숙면, 편안한 쉼</strong>에 특화되어 있어 두 제품을 아침·저녁으로 함께 드시는 루틴을 가장 추천합니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q. 하루에 몇 포를 어떻게 마셔야 가장 좋나요?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            처음 드시는 첫 7일간은 신체 흡수와 리셋을 위해 1일 3회(아침, 점심, 저녁) 1포씩 음용하시는 것을 권장합니다.
+            그 이후에는 1일 2회(아침 황칠삼 1포, 저녁 황칠문 1포)씩 기호에 따라 시원하게 또는 따뜻하게 데워 드시면 좋습니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q. 전자레인지에 파우치 채로 데워도 되나요?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            파우치 상태 그대로 전자레인지에 넣으시면 화재 및 파손 위험이 있습니다.
+            따뜻하게 데워 드실 때는 반드시 <strong>전자레인지 전용 컵이나 찻잔에 옮겨 담은 후 데우시거나, 따뜻한 물에 파우치를 중탕</strong>하여 드시기 바랍니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q. 침전물이 보이는데 안심하고 마셔도 되나요?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            네, 안심하셔도 됩니다. 황칠 나뭇잎과 산삼 배양근, 복령 등 자연 원물 고유의 풍부한 식물성 성분으로 인한 침전물이므로, 음용 전 가볍게 흔들어 드시면 본연의 깊은 영양을 그대로 섭취하실 수 있습니다.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q. 술자리가 잦은데 음주 전후에 마셔도 효과가 있나요?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            네! 간을 맑게 다스리는 벌나무와 야생 황칠, 구기자가 듬뿍 들어있어 음주 전 1포를 미리 마시거나 술자리에 직접 타서 '황칠주'로 드시면 목넘김이 부드럽고 숙취를 줄이는 데 큰 도움이 됩니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <div class="logo-symbol">S</div>
+          <div class="brand-text">
+            <span class="brand-title" style="color: #FFF;">SAGE</span>
+            <span class="brand-sub">자연에서 온 건강명작</span>
+          </div>
+        </div>
+        <div style="font-size: 1.1rem; color: var(--gold-400); font-weight: 700;">
+          📞 고객만족 상담실 : 061-843-1677
+        </div>
+      </div>
+
+      <div class="footer-info-grid">
+        <p><strong>제조원 :</strong> 세이지(SAGE) | <strong>대표자 :</strong> 고흥 세이지 | <strong>소재지 :</strong> 전남 고흥군 도양읍 녹동시장길 29-7</p>
+        <p><strong>상담 및 주문 문의 :</strong> 061-843-1677 | <strong>운영 시간 :</strong> 평일 09:00 ~ 17:00 (주말/공휴일 휴무)</p>
+        <p><strong>반품 및 교환 처 :</strong> 본 제품은 공정거래위원회 고시 소비자분쟁해결기준에 의거 교환 또는 보상받을 수 있습니다.</p>
+        <p>부정·불량식품 신고는 국번없이 1399</p>
+      </div>
+
+      <div class="footer-disclaimer">
+        ※ 본 제품은 질병의 예방 및 치료를 위한 의약품이 아닌 순수 다류(액상차) 건강식품입니다.<br>
+        Copyright © SAGE Hwangchil. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- 하단 플로팅 구매 / 상담 액션 바 -->
+  <div class="floating-action-bar">
+    <div class="floating-product-summary">
+      <span class="floating-badge">런칭특가</span>
+      <div>
+        <div class="floating-label" id="floatingProductLabel" style="font-size: 0.85rem; color: var(--text-secondary);">데이&나이트 올인원 세트</div>
+        <div class="floating-price" id="floatingPrice">198,000원</div>
+      </div>
+    </div>
+
+    <div class="floating-actions">
+      <a href="tel:061-843-1677" class="btn-float-order" style="padding: 12px 28px; text-decoration: none;">
+        <span>📞 전화 상담 및 주문 (061-843-1677)</span>
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
